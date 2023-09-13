@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8BC34A">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivBoy"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/boy" />
+
+            <TextView
+                android:id="@+id/tvBo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Boy"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/ivAbstPicture"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="60dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/abstpicture" />
+
+            <TextView
+                android:id="@+id/tvAbst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AbstPicture"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/ivCandle"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/candle" />
+
+            <TextView
+                android:id="@+id/tvCandle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Candle"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/ivElephant"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/elephant" />
+
+            <TextView
+                android:id="@+id/tvEle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Green"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/ivIsland"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/island" />
+
+            <TextView
+                android:id="@+id/tvIsla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Island"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/ivRobot"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/robot" />
+
+            <TextView
+                android:id="@+id/tvRobo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Robot"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/ivSalvador"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/salvador" />
+
+            <TextView
+                android:id="@+id/tvSal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Salvador"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
